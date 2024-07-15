@@ -5,12 +5,12 @@ Original code is [here](https://github.com/IncandelaLab/SharedUI).
 # how do use it
 * Open Docker Desktop
 * Load VcXsrv configurations
-* Overwrite filemanager_data from [other source](https://drive.google.com/drive/folders/1Geyf9KwpQOncLSZAvq2nZIrNbzvG-S12?usp=drive_link).
+* (Optional) Overwrite **filemanager_data** from [other source](https://drive.google.com/drive/folders/1Geyf9KwpQOncLSZAvq2nZIrNbzvG-S12?usp=drive_link).
 * Double click "init.bat"
 * Double click "run.bat"
 
 
 # Note
-The result would be recorded into *filmanager_data* with json format. You can back up or access for other purpose. All input values are recorded into *filemanager_data* simultaneously.
+The result would be recorded into **filmanager_data** with json format. You can back up or access for other purpose. All input values are recorded into **filemanager_data** simultaneously.
 
 
