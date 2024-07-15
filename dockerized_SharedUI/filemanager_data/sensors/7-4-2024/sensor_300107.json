@@ -1,0 +1,42 @@
+{
+    "PROPERTIES": [
+        "kind_of_part",
+        "record_insertion_user",
+        "location",
+        "comment_description",
+        "initiated_by_user",
+        "flatness",
+        "thickness",
+        "grade",
+        "comments",
+        "visual_inspection",
+        "test_files",
+        "protomodule",
+        "module",
+        "step_sensor",
+        "barcode"
+    ],
+    "DEFAULTS": {
+        "comments": "",
+        "comment_description": "",
+        "kind_of_part": "None Si Sensor None None"
+    },
+    "ID": "300107",
+    "kind_of_part": "120um Si Sensor HD Full",
+    "record_insertion_user": "hedy chang",
+    "location": "FSU",
+    "comment_description": "",
+    "initiated_by_user": null,
+    "flatness": null,
+    "thickness": null,
+    "grade": "Green",
+    "comments": "\"8inch pre-series HD120\u00b5m full sensors from FSU\n(NTU:294/ 300107 OBA49848)\"",
+    "visual_inspection": "pass",
+    "test_files": null,
+    "protomodule": null,
+    "module": null,
+    "step_sensor": null,
+    "barcode": null,
+    "partlistfile": "/mnt/c/Users/user01/Documents/SharedUI-master/SharedUI-master/filemanager_data/partlist/sensors.json",
+    "sensor": "300084_0"
+}

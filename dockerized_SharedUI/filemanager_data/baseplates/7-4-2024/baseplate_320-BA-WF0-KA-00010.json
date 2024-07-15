@@ -1,0 +1,41 @@
+{
+    "PROPERTIES": [
+        "kind_of_part",
+        "record_insertion_user",
+        "location",
+        "comment_description",
+        "initiated_by_user",
+        "flatness",
+        "thickness",
+        "grade",
+        "comments",
+        "manufacturer",
+        "protomodule",
+        "module",
+        "step_sensor",
+        "weight",
+        "barcode"
+    ],
+    "DEFAULTS": {
+        "comments": "",
+        "comment_description": "",
+        "kind_of_part": "None Baseplate None None"
+    },
+    "ID": "320-BA-WF0-KA-00010",
+    "kind_of_part": "CuW/Kapton Baseplate Full",
+    "record_insertion_user": "hedy chang",
+    "location": null,
+    "comment_description": "",
+    "initiated_by_user": null,
+    "flatness": 0.255,
+    "thickness": 1.788,
+    "grade": "Green",
+    "comments": "CuW baseplates+3M tape+kapton+3M tape+cover paper from KIT Germany (ntu ID:285)",
+    "manufacturer": null,
+    "protomodule": null,
+    "module": null,
+    "step_sensor": null,
+    "weight": null,
+    "barcode": null,
+    "partlistfile": "/mnt/c/Users/user01/Documents/SharedUI-master/SharedUI-master/filemanager_data/partlist/baseplates.json"
+}

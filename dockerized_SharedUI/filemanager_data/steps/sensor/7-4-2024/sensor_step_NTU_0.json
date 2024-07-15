@@ -1,0 +1,61 @@
+{
+    "PROPERTIES": [
+        "baseplates",
+        "sensors",
+        "protomodules",
+        "xml_file_name"
+    ],
+    "DEFAULTS": {
+        "baseplates": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "sensors": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ],
+        "protomodules": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    "ID": "NTU_0",
+    "baseplates": [
+        "320-BA-WF0-100-IN-00012",
+        "320-BA-WF0-100-IN-00013",
+        null,
+        null,
+        null,
+        null
+    ],
+    "sensors": [
+        "300100",
+        "300101",
+        null,
+        null,
+        null,
+        null
+    ],
+    "protomodules": [
+        "PHF1WX-NT0001",
+        "PHF1WX-NT0001",
+        null,
+        null,
+        null,
+        null
+    ],
+    "xml_file_name": null,
+    "partlistfile": "/mnt/c/Users/user01/Documents/SharedUI-master/SharedUI-master/filemanager_data/partlist/step_sensors.json"
+}
