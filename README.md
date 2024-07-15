@@ -6,11 +6,10 @@ Preventing handling X11 issue...
 
 
 ## Installation
-* Windows 10 22H2 or newer
-* Docker Desktop
+* Docker Desktop (Windows 10 22H2 or newer is required)
 * VcXsrv
 
 ## Usage
-* Run VcXsrv using `config.xlaunch`
-* Go to sub-repository and execute init.bat and run.bat
-* You can use docker desktop for image and container controlling 
+* Load VcXsrv configrations. `config.xlaunch`
+* Go to sub-directory and execute batch files.
+* You can use docker desktop for image and container controlling.
