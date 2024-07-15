@@ -11,6 +11,6 @@ Preventing handling X11 issue...
 * VcXsrv
 
 ## Usage
-* Run VcXsrv with argument
+* Run VcXsrv using `config.xlaunch`
 * Go to sub-repository and execute init.bat and run.bat
 * You can use docker desktop for image and container controlling 
