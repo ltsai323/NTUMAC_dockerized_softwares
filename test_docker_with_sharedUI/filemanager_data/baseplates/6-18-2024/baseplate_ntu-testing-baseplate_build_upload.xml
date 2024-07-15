@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ROOT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<PARTS>
+		<PART mode="auto">
+			<KIND_OF_PART>CuW/Kapton Baseplate Full</KIND_OF_PART>
+			<!-- <RECORD_INSERTION_USER>ltsai</RECORD_INSERTION_USER> -->
+			<SERIAL_NUMBER>ntu-testing-baseplate</SERIAL_NUMBER>
+			<LOCATION>NTU</LOCATION>
+			<INSTITUTION>National Taiwan University</INSTITUTION>
+			<!-- <MANUFACTURER>None</MANUFACTURER> -->
+			<COMMENT_DESCRIPTION>n/a</COMMENT_DESCRIPTION>
+		</PART>
+	</PARTS>
+</ROOT>

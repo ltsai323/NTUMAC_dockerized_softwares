@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ROOT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<PARTS>
+		<PART mode="auto">
+			<KIND_OF_PART>120um Si Sensor HD Full</KIND_OF_PART>
+			<SERIAL_NUMBER>300101</SERIAL_NUMBER>
+			<LOCATION>FSU</LOCATION>
+			<INSTITUTION>Florida State University</INSTITUTION>
+			<!-- <RECORD_INSERTION_USER>hedy chang</RECORD_INSERTION_USER> -->
+			<COMMENT_DESCRIPTION>n/a</COMMENT_DESCRIPTION>
+		</PART>
+	</PARTS>
+</ROOT>

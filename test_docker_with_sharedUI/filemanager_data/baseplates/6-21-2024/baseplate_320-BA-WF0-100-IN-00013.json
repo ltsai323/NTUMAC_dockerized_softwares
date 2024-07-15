@@ -1,0 +1,41 @@
+{
+    "PROPERTIES": [
+        "kind_of_part",
+        "record_insertion_user",
+        "location",
+        "comment_description",
+        "initiated_by_user",
+        "flatness",
+        "thickness",
+        "grade",
+        "comments",
+        "manufacturer",
+        "protomodule",
+        "module",
+        "step_sensor",
+        "weight",
+        "barcode"
+    ],
+    "DEFAULTS": {
+        "comments": "",
+        "comment_description": "",
+        "kind_of_part": "None Baseplate None None"
+    },
+    "ID": "320-BA-WF0-100-IN-00013",
+    "kind_of_part": "CuW/Kapton Baseplate Full",
+    "record_insertion_user": "hedy chang",
+    "location": "IHEP",
+    "comment_description": "",
+    "initiated_by_user": null,
+    "flatness": 0.085,
+    "thickness": 1.703,
+    "grade": "Green",
+    "comments": "Full tape",
+    "manufacturer": null,
+    "protomodule": "PHF1WX-NT0001",
+    "module": null,
+    "step_sensor": "NTU_0",
+    "weight": null,
+    "barcode": null,
+    "partlistfile": "/mnt/c/Users/user01/Documents/SharedUI-master/SharedUI-master/filemanager_data/partlist/baseplates.json"
+}
