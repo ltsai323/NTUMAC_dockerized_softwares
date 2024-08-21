@@ -6,8 +6,9 @@ Original code is [here](https://github.com/IncandelaLab/SharedUI).
 * Open Docker Desktop
 * Load VcXsrv configurations
 * (Optional) Overwrite **filemanager_data** from [other source](https://drive.google.com/drive/folders/1Geyf9KwpQOncLSZAvq2nZIrNbzvG-S12?usp=drive_link).
-* Double click "init.bat"
-* Double click "run.bat"
+* Double click **ssh_login_for_first.bat** for initializing DBLoader connection via SSH (Every lxplus account requires executing this script.)
+* Double click **init.bat** for building docker image from docker file. (Once you built the docker image, you can skip this step.)
+* Double click **run.bat** for activating docker container from built docker image.
 
 
 # Note
