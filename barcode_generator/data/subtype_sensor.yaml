@@ -1,0 +1,56 @@
+# a list return character
+# BA-TSFF-6nnnnn
+code_structure:
+  - 320: CMS
+  - SH: HD Sensors
+    SL: LD Sensors
+  - Thickness:
+        1: 120um
+        2: 200um
+        3: 300um
+    Shape:
+        # S: a whole sensor # allowed value but disabled
+        # M: half-moons or test structure # allowed value but disabled
+        F: Full
+        T: Top
+        B: Bottom
+        L: Left
+        R: Right
+        5: Five
+    Further code:
+        XX: default
+        # TP: top half-moon
+        # BT: bottom half-moon
+        # TL: top-left half-moon
+        # TR: top-right half-moon
+        # BL: bottom-left half-moon
+        # BR: bottom-right half-moon
+Digits:
+    options: # if the previous code in the list, show this number
+        1: # 300um and Full
+          - 3FXX
+        2: # 200um and Full
+          - 2FXX
+        3: # 120um and Full
+          - 1FXX
+        4: # 300um and Partial
+          - 3TXX
+          - 3BXX
+          - 3LXX
+          - 3RXX
+          - 35XX
+        5: # 200um and Partial
+          - 2TXX
+          - 2BXX
+          - 2LXX
+          - 2RXX
+          - 25XX
+        6: # 120um and Partial
+          - 1TXX
+          - 1BXX
+          - 1LXX
+          - 1RXX
+          - 15XX
+    Ndigit: 5 # 6-1. The first digit is meaningful
+
+

@@ -1,0 +1,30 @@
+code_structure:
+  - 320: CMS
+  - ML: LD Module
+    MH: HD Module
+  - Cut type:
+      F: Full
+      T: Top
+      B: Bottom
+      L: Left
+      R: Right
+      5: Five
+    Sensor thickness:
+      1: 120um
+      2: 200um
+      3: 300um
+    Baseplate type:
+      W: CuW
+      T: Titanium
+      P: PCB
+      C: Carbon fiber
+  - version:
+      X: Preseries
+      2: Common-ground HGCROCV3b
+      C: HGCROCV3c
+      4: separated-ground HGCROCV3b
+    MAC:
+      NT: NTU
+
+Digits:
+  Ndigit: 4

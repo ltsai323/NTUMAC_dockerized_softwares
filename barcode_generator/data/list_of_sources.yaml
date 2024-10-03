@@ -1,0 +1,5 @@
+'Sensor': 'data/subtype_sensor.yaml'
+'Bare Hexaboard': 'data/subtype_barehexaboard.yaml'
+'Hexaboard': 'data/subtype_hexaboard.yaml'
+'Baseplate': 'data/subtype_baseplate.yaml'
+'Silicon Module': 'data/subtype_simodule.yaml'

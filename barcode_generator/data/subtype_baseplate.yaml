@@ -1,0 +1,48 @@
+code_structure:
+  - 320: CMS
+  - BA: baseplate # if is dictionary: directly put whole key
+  - Cut type:
+      F: Full
+      T: Top
+      B: Bottom
+      L: Left
+      R: Right
+      5: Five
+    Density:
+      L: LD
+      H: HD
+    Material:
+      W: WCu
+      T: Titanium
+      P: PCB          # only for pre-series module
+      C: Carbon fiber # only for pre-series module
+  - Vendor:
+      K: K blah
+      V: V blah
+    Batch:
+      0: 0
+    
+AcceptableList: # if exists, check. How do I assign 2nd layer? # asdf discard
+  - FLW
+  - TLW
+  - BLW
+  - LLW
+  - RLW
+  - 5LW
+  - FHW
+  - BHW
+  - LHW
+  - FLT
+  - TLT
+  - BLT
+  - LLT
+  - RLT
+  - 5LT
+  - FHT
+  - THT
+  - RHW
+Digits:
+  Ndigit: 5
+
+
+### asdf What is rule of Vendor and batch?

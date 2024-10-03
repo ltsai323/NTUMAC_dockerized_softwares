@@ -1,0 +1,32 @@
+code_structure:
+  - 320: default
+  - XL: LD Hexaboards
+    XH: HD Hexaboards
+  - Cut type:
+      F: Full
+      T: Top
+      B: Bottom
+      L: Left
+      R: Right
+      5: Five
+    Board generations:
+      0: Prototype version
+      1: Prototype version # Prototype versions of the assembled hexaboard are assigned generation ids between 0 to 3
+      2: Prototype version
+      3: Prototype version
+      4: Pre-production and production
+  - HGCROC version:
+      2: S02 Common-ground HGCROCV3b
+      C: HGCROCV3c
+      4: S04 separated-ground HGCROCV3b
+    Vendor:
+      P: Plotech PCB vendor
+      Q: HiQ PCB vendor
+      M: Micropack PCB vendor
+    Assembly vendor:
+      H: Hybrid SA PCB aSSEMBLY VENDOR
+      M: Mount Technology CO PCB assembly vendor
+      # P: Plotech assembled
+
+Digits:
+  Ndigit: 5
