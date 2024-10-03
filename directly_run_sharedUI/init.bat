@@ -25,6 +25,11 @@ if '%errorlevel%' NEQ '0' (
     CD /D "%~dp0"
 :--------------------------------------
 
+python3 -m pip install --upgrade pip
+python3 -m pip install numpy PyQt5 jinja2 pytest pexpect wexpect psutil requests setuptools
+ 
+
+
 
 REM Go to current directory at Administrator mode
 cd /d "%~dp0"
