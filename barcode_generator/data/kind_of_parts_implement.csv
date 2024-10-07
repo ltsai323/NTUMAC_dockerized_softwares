@@ -1,0 +1,4 @@
+#2024-09-18 # this csv file is downloaded from https://gitlab.cern.ch/hgcal-database/usefull-scripts/-/blob/master/data/kind_of_parts.csv
+"DISPLAY_NAME","LABEL_TYPECODE","LPNAME"
+"testing","hii","testing"
+
