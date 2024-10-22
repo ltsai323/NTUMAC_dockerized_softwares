@@ -41,3 +41,6 @@ REM get the absolute path of filemanager_data
 for /f "delims=" %%i in ('powershell -command "(Get-Item -Path .\filemanager_data).FullName"') do set ABSOLUTE_PATH=%%i
 
 mklink /D .\SharedUI\filemanager_data "%ABSOLUTE_PATH%"
+
+cd .\SharedUI\
+git checkout c6f1d7ba54df1560a15b30ca9f83f5870dbe85e5
