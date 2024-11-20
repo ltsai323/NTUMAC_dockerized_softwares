@@ -193,7 +193,7 @@ def assembly_code(codeDICT:dict):
         for code, illustration in subopt.items():
             #radio = tk.Radiobutton(root, text=f'{illustration}', variable=selected_value, value=f'{code}',
             #                       command=update_ID)
-            radio = tk.Radiobutton(subtype_frame, text=f'{illustration}', variable=selected_value, value=f'{code}', wrap=150, command=update_ID)
+            radio = tk.Radiobutton(subtype_frame, text=f'{illustration}', variable=selected_value, value=f'{code}', wrap=120, command=update_ID, height=2)
             radio.grid(row=irow, column=gColIdx, sticky='w')  # Add small padding between Radiobuttons
             radio.config(font=font_options)
             if first_item:
@@ -263,8 +263,6 @@ def main_option_menu(yamlFILE):
             if isinstance(val, dict):
                 for k,item in val.items():
                     print(f'    [{k}] {item}')
-#check_yaml_content(data)
-#exit(0)
 
 
 
@@ -297,13 +295,12 @@ def main_option_menu(yamlFILE):
 
 
 ########## Row N+1: Generate KIND_OF_PARTS from ID ##########
-    #gColIdx+=1
     gColIdx = 99
     global strVar_KIND_OF_PARTS
     strVar_KIND_OF_PARTS = tk.StringVar()
     strVar_KIND_OF_PARTS.set('KIND_OF_PARTS')
     label_KIND_OF_PARTS = tk.Label(subtype_frame, textvariable=strVar_KIND_OF_PARTS)
-    label_KIND_OF_PARTS.grid(row=gColIdx, column=1, padx=10,pady=10, columnspan=max_column-1)
+    label_KIND_OF_PARTS.grid(row=gColIdx, column=1, padx=10,pady=10, columnspan=2)
 
     
 # Button to copy the text in the TextBox to clipboard
