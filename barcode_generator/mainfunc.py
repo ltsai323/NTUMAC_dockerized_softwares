@@ -135,8 +135,8 @@ def copy_to_clipboard():
 def copy_to_clipboard_KIND_OF_PARTS():
     """Copy the contents of the textbox to the clipboard."""
     root.clipboard_clear()
-    root.clipboard_append(strVar_KIND_OF_PARTS.get(1.0, tk.END))  # Copy text to clipboard
-    print(f'[CopiedID KIN_OF_PARTS] {strVar_KIND_OF_PARTS.get(1.0,tk.END)}')
+    root.clipboard_append(strVar_KIND_OF_PARTS.get())  # Copy text to clipboard
+    print(f'[CopiedID KIN_OF_PARTS] {strVar_KIND_OF_PARTS.get()}')
 
 
 
