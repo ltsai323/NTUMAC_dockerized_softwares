@@ -1,7 +1,7 @@
 code_structure:
   - 320: CMS
-  - ML: LD Module
-    MH: HD Module
+  - MH: HD Module
+    ML: LD Module
   - Cut type:
       F: Full
       T: Top
@@ -19,10 +19,10 @@ code_structure:
       P: PCB
       C: Carbon fiber
   - version:
-      X: Preseries
-      2: Common-ground HGCROCV3b
       C: HGCROCV3c
-      4: separated-ground HGCROCV3b
+      2: Common-ground HGCROCV3b
+      4: Separated-ground HGCROCV3b
+      X: Preseries
     MAC:
       NT: NTU
 
